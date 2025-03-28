@@ -36,7 +36,7 @@ app.post("/happy", (req, res) => {
     return res.send("Error: Please complete your input.");
   }
 
-  const pronoun = gender === "male" ? "he" : "she";
+  const pronoun = gender === "male" ? "he's" : "she's";
   let guests = [];
 
   let i = 1;
